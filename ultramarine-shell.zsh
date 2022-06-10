@@ -9,3 +9,6 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Ctrl + Arrow keybindings
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
+
+HISTFILE=~/.zsh_history
+setopt appendhistory
