@@ -11,4 +11,7 @@ bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
 
 HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
 setopt appendhistory
+setopt SHARE_HISTORY
