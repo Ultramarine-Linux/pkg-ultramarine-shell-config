@@ -1,6 +1,6 @@
 
 Name:           ultramarine-shell-config
-Version:        1.2
+Version:        1.2.1
 Release:        %autorelease
 Summary:        Shell configuration for Ultramarine Linux
 License:        MIT
@@ -16,6 +16,7 @@ Requires:       zsh-syntax-highlighting
 Requires:       exa
 Requires:       bat
 Requires:       starship
+Requires:       most
 
 BuildArch:      noarch
 %description

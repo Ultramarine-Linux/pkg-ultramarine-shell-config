@@ -57,7 +57,7 @@ alias paru=_aur_helper
 
 alias ls=exa
 
-export PAGER=bat
+export PAGER=most
 
 # if ~/.config/starship.toml doesn't exist
 if ! [ -f ~/.config/starship.toml ]; then
